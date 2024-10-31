@@ -1,0 +1,29 @@
+.post--like-wrap a,
+.post--like-wrap a:hover,
+.post--like-wrap a:focus {
+    text-decoration: none;
+}
+.text--align--left {
+    text-align: left;
+}
+.text--align--right {
+    text-align: right;
+}
+.text--align--cennter {
+    text-align: center;
+}
+
+.pl-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    position: relative;
+    top: -.0625em;
+}
+.post--like-wrap.post--liked .pl-icon,
+.post--like-wrap.post--liked .post--like-count {
+    color: #dc3232;
+}
+
